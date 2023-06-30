@@ -1,0 +1,106 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Agdasima&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Coiny&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Agdasima&display=swap");
+
+body {
+    background-color: #FFF;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+   
+}
+
+h4 {
+    color: #333;
+    font-size: 24px;
+    font-family: Inconsolata;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.92px;
+    text-transform: uppercase;
+    margin: 20px;
+}
+
+
+
+.image {
+    width: 50%;
+    min-width: 350px;
+    height: auto;
+    margin-left: 175px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    margin-right: 200px;
+}
+
+
+.text-principal {
+    color: var(--gray-1, #333);
+    font-size: 3rem;
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 100%;
+}
+
+.text-secondary {
+    color: var(--gray-2, #4F4F4F);
+    font-size: 24px;
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 100%;
+
+}
+
+.btn {
+    width: 216px;
+    height: 68px;
+    background-color: #333;
+    border: #333;
+    color: #FFF;
+}
+
+.footer{
+    text-align: center;
+    color: #999;
+    margin-top: 150px;
+}
+
+@media screen and (max-width: 480px){
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 0px;
+    }
+    .image {
+        width: 100%;
+        min-width: 250px;
+        height: auto;
+        margin: auto;
+    }
+
+    .text {
+        width: 100%;
+    }
+
+    .text-principal {
+        width: 100%;
+        font-size: 2rem;
+    }
+}
